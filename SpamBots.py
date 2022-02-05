@@ -739,7 +739,7 @@ async def ping(e):
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\n" 𝐑𝐔𝐊 𝐉𝐀 𝐁𝐒𝐃𝐊!
+        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\n RESTART HO RAHA HU RUK JA 😘
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await idk.disconnect()
