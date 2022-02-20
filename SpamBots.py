@@ -61,7 +61,7 @@ ddk = ""
 
 que = {}
 
-SMEX_USERS = [5107825808]
+SMEX_USERS = [5275980328]
 for x in SUDO:
     SMEX_USERS.append(x)
 
